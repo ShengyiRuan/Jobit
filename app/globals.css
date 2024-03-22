@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-manrope;
+  }
+}
+
+body {
+  @apply bg-Natural3;
+}
+
+body.dark {
+  @apply bg-DarkBG1;
+}
+
+@layer utilities {
+  .regular-16 {
+    @apply text-[16px] font-normal leading-[24px];
+  }
+
+  .regular-20 {
+    @apply text-[20px] font-normal leading-[28px];
+  }
+
+  .bold-13 {
+    @apply text-[13px] font-bold leading-[24px];
+  }
+
+  .bold-14 {
+    @apply text-[14px] font-bold leading-[24px];
+  }
+
+  .bold-16 {
+    @apply text-[16px] font-bold leading-[24px];
+  }
+
+  .bold-18 {
+    @apply text-[18px] font-bold leading-[24px];
+  }
+
+  .bold-32 {
+    @apply text-[32px] font-bold leading-[40px];
+  }
+
+  .bold-22 {
+    @apply text-[22px] font-bold leading-[32px];
+  }
+
+  .bold-24 {
+    @apply text-[24px] font-bold leading-[32px];
+  }
+
+  .medium-13 {
+    @apply text-[13px] font-medium leading-[18px];
+  }
+
+  .medium-14 {
+    @apply text-[14px] font-medium leading-[20px];
+  }
+
+  .medium-15 {
+    @apply text-[15px] font-medium leading-[24px];
+  }
+
+  .semibold-13 {
+    @apply text-[13px] font-semibold leading-[24px];
+  }
+
+  .semibold-14 {
+    @apply text-[14px] font-semibold leading-[24px];
+  }
+
+  .semibold-15 {
+    @apply text-[15px] font-semibold leading-[24px];
+  }
+
+  .semibold-16 {
+    @apply text-[16px] font-semibold leading-[24px];
+  }
+
+  .semibold-18 {
+    @apply text-[18px] font-semibold leading-[24px];
+  }
+
+  .regular-13 {
+    @apply text-[13px] font-normal leading-[22px];
+  }
+
+  .regular-14 {
+    @apply text-[14px] font-normal leading-[22px];
+  }
+
+  .regular-22 {
+    @apply text-[22px] font-normal leading-[32px];
+  }
+
+  .featured-card {
+    @apply bg-White dark:bg-DarkBG2 flex w-full flex-col rounded-[0.625rem];
+  }
+
+  .hover-effect {
+    @apply hover:opacity-80 transition-opacity
+  }
+
+  .body-l-bold {
+    @apply text-lg font-bold leading-normal;
+  }
+
+  .searchBar-placeholder {
+    @apply placeholder:xl:semibold-14 placeholder:semibold-14 placeholder:lg:bold-14
+  }
+}
+
+.save-button {
+  @apply border-[#E2E2EA] gap-x-1 py-[0.75rem] sm:py-[0.9375rem] px-[0.875rem] border w-[7.75rem] h-11 border-solid dark:border-[#44444F] sm:w-[6.1875rem] rounded-[0.625rem] justify-center items-center;
+}

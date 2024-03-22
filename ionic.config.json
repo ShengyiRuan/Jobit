@@ -1,0 +1,7 @@
+{
+  "name": "jobit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
