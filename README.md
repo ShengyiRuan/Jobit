@@ -73,11 +73,6 @@ To fix a bug or enhance an existing module, follow these steps:
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
 
-### 📩 Bug / Feature Request
-
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/devtaehong/hipnode/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/devtaehong/hipnode/issues/new). Please include sample queries and their corresponding results.
 
 ## 🔒 ENV file
  ```
@@ -90,20 +85,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
    # Direct URL and Database URL
    NEXT_PUBLIC_GEOCODE_API_KEY=<next_public_geocode_api_key>
    ```
-
-## 📜 Credits
-
-👦 Austin Margarone <br>
-Email: austin@fcvt.dev <br>
-GitHub: @austinmargarone
-
-👦 Kamsiyonna <br>
-Email: obikamsi@gmail.com <br>
-GitHub: @KamsiyonnaObi
-
-👦 Markus <br>
-Email: williams.markus18@yahoo.com <br>
-GitHub: @Marko9543
 
 
 ## 📞 Contact Me
