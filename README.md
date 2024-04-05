@@ -3,8 +3,6 @@
 <img width="1322" alt="Screenshot 2024-02-09 at 6 37 05 PM" src="https://github.com/DevTaehong/JobIt/assets/71358207/ff6505d0-ecd2-46f2-955b-d9dae6dc4580">
 
 ![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
-[![website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://github.com/DevTaehong/Hipnode)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## 🌐 Demo
 Here is a working live demo: https://jobit-one.vercel.app/
@@ -45,7 +43,6 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/DevTaehong/Jobit.git
 
 # Go into the repository
 $ cd Jobit
@@ -57,21 +54,6 @@ $ npm install
 $ npm start
 ```
 
-> **Note**
-> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-### ⚒️ How to Contribute
-Want to contribute? Great!
-
-To fix a bug or enhance an existing module, follow these steps:
-
-- Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request 
 
 
 ## 🔒 ENV file
@@ -86,7 +68,3 @@ To fix a bug or enhance an existing module, follow these steps:
    NEXT_PUBLIC_GEOCODE_API_KEY=<next_public_geocode_api_key>
    ```
 
-
-## 📞 Contact Me
-
-[![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-taehong-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/in/taehong/)
